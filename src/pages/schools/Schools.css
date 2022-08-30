@@ -1,0 +1,11 @@
+.schools {
+  padding: 0 9% 10rem;
+}
+
+.schools h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-family: "Noto Serif", serif;
+  text-align: center;
+  padding-bottom: 4rem;
+}

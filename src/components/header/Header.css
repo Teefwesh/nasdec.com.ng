@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem 9%;
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.header .logo a {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.header.active {
+  padding: 2rem 9%;
+  box-shadow: var(--box-shadow);
+}
+
+#mobile {
+  display: none;
+  /* background-color: blue; */
+  z-index: 9999;
+}
+
+.bars {
+  height: 3rem;
+  width: 3rem;
+  color: var(--black);
+  cursor: pointer;
+}
+
+.mobileTimes.active {
+  display: none;
+}
+
+.mobileBar.active {
+  display: none;
+}
+
+@media (max-width: 1115px) {
+  #mobile {
+    display: block;
+  }
+}
