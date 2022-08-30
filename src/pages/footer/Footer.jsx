@@ -16,8 +16,8 @@ import {
 const Footer = () => {
   return (
     <div className="footer">
-      <div class=" grid grid--footer">
-        <div class="logo-col">
+      <div className=" grid grid--footer">
+        <div className="logo-col">
           <div
             className="logo"
             style={{
@@ -29,9 +29,9 @@ const Footer = () => {
             <Link to="/"> NASDEC School</Link>
           </div>
 
-          <ul class="social-links">
+          <ul className="social-links">
             <li>
-              <Link class="footer-link" to="/">
+              <Link className="footer-link" to="/">
                 <FontAwesomeIcon
                   icon={faInstagram}
                   style={{ width: "2.4rem", height: "2.4rem" }}
@@ -39,7 +39,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link class="footer-link" to="/">
+              <Link className="footer-link" to="/">
                 <FontAwesomeIcon
                   icon={faFacebook}
                   style={{ width: "2.4rem", height: "2.4rem" }}
@@ -56,16 +56,16 @@ const Footer = () => {
             </li>
           </ul>
 
-          <p class="copyright">
+          <p className="copyright">
             Copyright &copy; <span class="year">2027</span> by Nasdec School.
             All rights reserved.
           </p>
         </div>
 
-        <div class="address-col">
-          <p class="footer-heading">Contact us</p>
-          <address class="contacts">
-            <p class="address">
+        <div className="address-col">
+          <p className="footer-heading">Contact us</p>
+          <address className="contacts">
+            <p className="address">
               <FontAwesomeIcon
                 icon={faLocationDot}
                 style={{ width: "1.8rem", height: "1.8rem" }}
@@ -74,82 +74,82 @@ const Footer = () => {
             </p>
             <p>
               <FontAwesomeIcon icon={faPhone} style={{ marginRight: "1rem" }} />
-              <a className="footer-link" href="tel:415-201-6370">
+              <Link className="footer-link" to="tel:415-201-6370">
                 415-201-6370
-              </a>
+              </Link>
               <br />
               <FontAwesomeIcon icon={faAt} style={{ marginRight: "1rem" }} />
-              <a className="footer-link" href="mailto:hello@omnifood.com">
+              <Link className="footer-link" to="mailto:hello@omnifood.com">
                 hello@nasdec.com
-              </a>
+              </Link>
             </p>
           </address>
         </div>
 
-        <nav class="nav-col">
-          <p class="footer-heading">About</p>
-          <ul class="footer-nav">
+        <nav className="nav-col">
+          <p className="footer-heading">About</p>
+          <ul className="footer-nav">
             <li>
-              <a class="footer-link" href="#">
+              <Link className="footer-link" to="#">
                 Director's Speech
-              </a>
+              </Link>
             </li>
             <li>
-              <a class="footer-link" href="#">
+              <Link className="footer-link" to="#">
                 History
-              </a>
+              </Link>
             </li>
             <li>
-              <a class="footer-link" href="#">
+              <Link className="footer-link" to="#">
                 Why NASDEC
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
 
-        <nav class="nav-col">
-          <p class="footer-heading">Schools</p>
-          <ul class="footer-nav">
+        <nav className="nav-col">
+          <p className="footer-heading">Schools</p>
+          <ul className="footer-nav">
             <li>
-              <a class="footer-link" href="#">
+              <Link className="footer-link" to="#">
                 Nursery
-              </a>
+              </Link>
             </li>
             <li>
-              <a class="footer-link" href="#">
+              <Link className="footer-link" to="#">
                 Primary
-              </a>
+              </Link>
             </li>
             <li>
-              <a class="footer-link" href="#">
+              <Link className="footer-link" to="#">
                 College
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
 
-        <nav class="nav-col">
-          <p class="footer-heading">Quick Links</p>
-          <ul class="footer-nav">
+        <nav className="nav-col">
+          <p className="footer-heading">Quick Links</p>
+          <ul className="footer-nav">
             <li>
-              <a class="footer-link" href="#">
+              <Link className="footer-link" to="#">
                 Facilities
-              </a>
+              </Link>
             </li>
             <li>
-              <a class="footer-link" href="#">
+              <Link className="footer-link" to="#">
                 Admission
-              </a>
+              </Link>
             </li>
             <li>
-              <a class="footer-link" href="#">
+              <Link className="footer-link" to="#">
                 Gallery
-              </a>
+              </Link>
             </li>
             <li>
-              <a class="footer-link" href="#">
+              <Link className="footer-link" to="#">
                 Support
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
