@@ -1,8 +1,12 @@
 #navbar a {
   margin: 0 1.5rem;
   font-size: 1.8rem;
-  color: var(--black);
+  color: #000066;
   font-weight: 500;
+}
+
+#navbar a:hover {
+  color: var(--blue);
 }
 
 @media (max-width: 1115px) {

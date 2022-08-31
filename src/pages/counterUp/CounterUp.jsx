@@ -34,10 +34,14 @@ const CounterUp = () => {
                 {counterOn && (
                   <CountUp
                     start={0}
-                    end={26}
+                    end={7}
                     duration={2}
                     delay={0}
-                    style={{ fontSize: "3.7rem", fontWeight: "500" }}
+                    style={{
+                      fontSize: "3.7rem",
+                      fontWeight: "500",
+                      color: "var(--blue)",
+                    }}
                   />
                 )}
                 <p> Years</p>
@@ -56,6 +60,7 @@ const CounterUp = () => {
                     style={{
                       fontSize: "3.7rem",
                       fontWeight: "500",
+                      color: "var(--blue)",
                     }}
                   />
                 )}
@@ -73,7 +78,11 @@ const CounterUp = () => {
                     end={8658}
                     duration={2}
                     delay={0}
-                    style={{ fontSize: "3.7rem", fontWeight: "500" }}
+                    style={{
+                      fontSize: "3.7rem",
+                      fontWeight: "500",
+                      color: "var(--blue)",
+                    }}
                   />
                 )}
                 <p>Enrolled Student</p>
@@ -89,7 +98,11 @@ const CounterUp = () => {
                     end={100}
                     duration={2}
                     delay={0}
-                    style={{ fontSize: "3.7rem", fontWeight: "500" }}
+                    style={{
+                      fontSize: "3.7rem",
+                      fontWeight: "500",
+                      color: "var(--blue)",
+                    }}
                   />
                 )}
                 <h1 className="percent">%</h1>

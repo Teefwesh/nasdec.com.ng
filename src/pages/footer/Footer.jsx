@@ -12,6 +12,7 @@ import {
   faLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
+import Logo from "../../image/logo.png";
 
 const Footer = () => {
   return (
@@ -21,12 +22,16 @@ const Footer = () => {
           <div
             className="logo"
             style={{
-              fontSize: "2.5rem",
-              fontWeight: "600",
               marginBottom: "5rem",
             }}
           >
-            <Link to="/"> NASDEC School</Link>
+            <Link to="/">
+              <img
+                src={Logo}
+                alt="Nasdec Royal School Logo"
+                style={{ width: "14rem", height: "13rem" }}
+              />
+            </Link>
           </div>
 
           <ul className="social-links">
@@ -57,7 +62,7 @@ const Footer = () => {
           </ul>
 
           <p className="copyright">
-            Copyright &copy; <span class="year">2027</span> by Nasdec School.
+            Copyright &copy; <span class="year">2022</span> by Nasdec School.
             All rights reserved.
           </p>
         </div>
@@ -68,17 +73,27 @@ const Footer = () => {
             <p className="address">
               <FontAwesomeIcon
                 icon={faLocationDot}
-                style={{ width: "1.8rem", height: "1.8rem" }}
+                style={{
+                  width: "1.8rem",
+                  height: "1.8rem",
+                  color: "#2424ba",
+                }}
               />
               623 Harrison St., 2nd Floor, San Francisco, CA 94107
             </p>
             <p>
-              <FontAwesomeIcon icon={faPhone} style={{ marginRight: "1rem" }} />
-              <Link className="footer-link" to="tel:415-201-6370">
-                415-201-6370
+              <FontAwesomeIcon
+                icon={faPhone}
+                style={{ marginRight: "1rem", color: "#2424ba" }}
+              />
+              <Link className="footer-link" to="">
+                +234 803 373 3112
               </Link>
               <br />
-              <FontAwesomeIcon icon={faAt} style={{ marginRight: "1rem" }} />
+              <FontAwesomeIcon
+                icon={faAt}
+                style={{ marginRight: "1rem", color: "#2424ba" }}
+              />
               <Link className="footer-link" to="mailto:hello@omnifood.com">
                 hello@nasdec.com
               </Link>

@@ -1,9 +1,9 @@
 import React from "react";
 import "./ImageSlider.css";
 import Carousel from "react-bootstrap/Carousel";
-import Creche from "../../image/img2.jpg";
-import Image1 from "../../image/img1.jpg";
-import Image2 from "../../image/img3.jpg";
+import Creche from "../../image/img2.jpeg";
+import Image1 from "../../image/img1.jpeg";
+import Image2 from "../../image/computer.jpeg";
 
 const ImageSlider = () => {
   return (
@@ -21,7 +21,7 @@ const ImageSlider = () => {
             <h1
               style={{
                 color: "#fff",
-                fontSize: "5rem",
+                fontSize: "3rem",
               }}
             >
               Quality and Value!
@@ -31,7 +31,7 @@ const ImageSlider = () => {
                 color: "yellow",
                 fontWeight: "300",
                 textShadow: "0 0.2rem 0.8rem rgba(255, 255, 255, 0.9)",
-                fontSize: "3rem",
+                fontSize: "2rem",
               }}
             >
               Educating tomorow's leaders
@@ -50,7 +50,7 @@ const ImageSlider = () => {
             <h1
               style={{
                 color: "#fff",
-                fontSize: "4.5rem",
+                fontSize: "3rem",
               }}
             >
               Quality Education for a Brighter Future
@@ -60,7 +60,7 @@ const ImageSlider = () => {
                 color: "yellow",
                 fontWeight: "300",
                 textShadow: "0 0.2rem 0.8rem rgba(255, 255, 255, 0.9)",
-                fontSize: "3rem",
+                fontSize: "2rem",
               }}
             >
               We work to ensure the future of tomorrow's leaders
@@ -79,7 +79,7 @@ const ImageSlider = () => {
             <h1
               style={{
                 color: "#fff",
-                fontSize: "5rem",
+                fontSize: "3.5rem",
               }}
             >
               Performance is Key!
@@ -89,7 +89,7 @@ const ImageSlider = () => {
                 color: "yellow",
                 fontWeight: "300",
                 textShadow: "0 0.2rem 0.8rem rgba(255, 255, 255, 0.9)",
-                fontSize: "3rem",
+                fontSize: "2rem",
               }}
             >
               Our teachers are kin to bring out the best in your children

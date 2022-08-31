@@ -4,6 +4,7 @@ import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import NavBar from "../navBar/NavBar";
 import "./Header.css";
+import Logo from "../../image/logo.png";
 
 const Header = () => {
   const myRef = useRef();
@@ -24,7 +25,13 @@ const Header = () => {
   return (
     <div ref={myRef} className={boxShadow ? "header active" : "header"}>
       <div className="logo">
-        <Link to="/"> NASDEC School</Link>
+        <Link to="/">
+          <img
+            src={Logo}
+            alt="Nasde Royal Schools logo"
+            style={{ width: "10rem", height: "9rem" }}
+          />
+        </Link>
       </div>
 
       <NavBar showMenu={showMenu} />

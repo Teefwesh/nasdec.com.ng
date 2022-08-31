@@ -17,7 +17,7 @@
 }
 
 .carousel-caption {
-  color: #fff;
+  /* color: #fff; */
   font-size: 4rem;
   right: 0;
   left: 0;
@@ -35,3 +35,5 @@
 .carousel-indicators {
   display: none;
 }
+
+

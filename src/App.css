@@ -12,12 +12,13 @@ html {
 }
 
 :root {
-  --blue: #1864ab;
-  --light-blue: #228be6;
+  --blue: #2424ba;
+  --light-blue: #7c8282;
   --black: #130f40;
   --light-color: #666;
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   --border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  --buttonBg: linear-gradient(98.63deg, #2424ba 0%, #9b161b 100%);
 }
 
 a {
@@ -25,15 +26,16 @@ a {
 }
 
 .btn {
-  background: var(--light-blue);
   color: #fff;
   font-weight: 400;
   font-size: 1.7rem;
+  background: var(--buttonBg);
 }
 
 .btn:hover {
-  border: 1px solid var(--blue);
-  color: #555;
+  border: 1px solid var(--light-blue);
+  color: #000;
+  background: transparent;
 }
 
 /*///////////////////////////////////// */

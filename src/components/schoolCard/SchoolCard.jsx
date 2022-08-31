@@ -1,8 +1,8 @@
 import React from "react";
 import "./SchoolCard.css";
-import Nursery from "../../image/nur.jpg";
-import Primary from "../../image/pry.png";
-import Secondary from "../../image/sec.jpg";
+import Nursery from "../../image/nur.jpeg";
+import Primary from "../../image/img3.jpeg";
+import Secondary from "../../image/best.jpeg";
 
 const SchoolCard = () => {
   return (

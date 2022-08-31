@@ -24,7 +24,7 @@
 .icons-container .icons .icn {
   height: 3.5rem;
   width: 3.5rem;
-  color: var(--black);
+  color: var(--blue);
   text-align: center;
 }
 
@@ -43,6 +43,7 @@
   font-size: 1.8rem;
   text-align: center;
   font-weight: 300;
+  color: var(--blue);
 }
 
 .add {
@@ -50,6 +51,7 @@
   top: 8px;
   right: 25%;
   font-size: 3rem;
+  color: var(--blue);
 }
 
 .percent {
@@ -57,4 +59,5 @@
   top: 8px;
   right: 10%;
   font-size: 3rem;
+  color: var(--blue);
 }
