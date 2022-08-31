@@ -3,7 +3,7 @@
   grid-template-columns: repeat(2, 1fr);
   padding: 8rem 9%;
   gap: 10rem;
-  /* background: #f3f3f3; */
+  background: #e6f4fe;
 }
 
 .directorSpeech > img {

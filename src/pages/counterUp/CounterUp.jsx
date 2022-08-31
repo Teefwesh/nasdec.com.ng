@@ -23,7 +23,7 @@ const CounterUp = () => {
           style={{
             width: "100%",
             // color: "white",
-            backgroundColor: "#eee",
+            // backgroundColor: "#eee",
             padding: "60px 9%",
           }}
         >
@@ -65,7 +65,7 @@ const CounterUp = () => {
                   />
                 )}
                 <h1 className="add">%</h1>
-                <p>Passing into University</p>
+                <p>Pass Rate to University</p>
               </div>
             </div>
 
@@ -85,6 +85,7 @@ const CounterUp = () => {
                     }}
                   />
                 )}
+                <h1 className="plus">+</h1>
                 <p>Enrolled Student</p>
               </div>
             </div>

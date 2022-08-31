@@ -1,6 +1,6 @@
 .counterUp {
-  padding: 2rem 0;
-  padding-bottom: 10rem;
+  padding: 5rem 0;
+  padding-bottom: 5rem;
 }
 
 .icons-container {
@@ -10,7 +10,8 @@
 }
 
 .icons-container .icons {
-  background: #fff;
+  background: #fcfcfc;
+  border: 1px solid #ddd;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,18 +47,23 @@
   color: var(--blue);
 }
 
-.add {
+.add,
+.percent,
+.plus {
   position: absolute;
   top: 8px;
-  right: 25%;
   font-size: 3rem;
   color: var(--blue);
 }
 
+.add {
+  right: 25%;
+}
+
+.plus {
+  right: 4%;
+}
+
 .percent {
-  position: absolute;
-  top: 8px;
   right: 10%;
-  font-size: 3rem;
-  color: var(--blue);
 }

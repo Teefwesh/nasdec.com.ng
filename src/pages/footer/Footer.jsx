@@ -79,7 +79,7 @@ const Footer = () => {
                   color: "#2424ba",
                 }}
               />
-              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+              No 5 & 7 Eddynumbers Avenue, Eedu, Agbara, Ogun State. Nigeria
             </p>
             <p>
               <FontAwesomeIcon
@@ -87,15 +87,19 @@ const Footer = () => {
                 style={{ marginRight: "1rem", color: "#2424ba" }}
               />
               <Link className="footer-link" to="">
-                +234 803 373 3112
+                <b>+234 1 293 2252 </b>
               </Link>
               <br />
               <FontAwesomeIcon
                 icon={faAt}
                 style={{ marginRight: "1rem", color: "#2424ba" }}
               />
-              <Link className="footer-link" to="mailto:hello@omnifood.com">
-                hello@nasdec.com
+              <Link
+                className="footer-link"
+                to=""
+                style={{ wordWrap: "break-word" }}
+              >
+                nasdecroyalschools@yahoo.com
               </Link>
             </p>
           </address>
