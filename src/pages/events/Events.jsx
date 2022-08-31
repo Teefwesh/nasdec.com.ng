@@ -11,11 +11,11 @@ function SimpleSlider() {
     dots: true,
     infinite: true,
     autoplay: true,
-    speed: 1000,
-    slidesToShow: 2,
+    speed: 500,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
     cssEase: "linear",
 
     responsive: [

@@ -1,7 +1,7 @@
-import Event1 from "../image/nur.jpg";
-import Event2 from "../image/pry.png";
-import Event3 from "../image/sec.jpg";
 import Event4 from "../image/sport.jpeg";
+import Event3 from "../image/practical.jpeg";
+import Event1 from "../image/sport1.jpeg";
+import Event2 from "../image/sport2.jpeg";
 
 export const recentNewsAndEvent = [
   {
