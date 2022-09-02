@@ -14,7 +14,7 @@ const CounterUp = () => {
   const [counterOn, setCounterOn] = useState(false);
 
   return (
-    <div className="counterUp">
+    <div className="counterUp" id="counter">
       <ScrollTrigger
         onEnter={() => setCounterOn(true)}
         onExit={() => setCounterOn(false)}

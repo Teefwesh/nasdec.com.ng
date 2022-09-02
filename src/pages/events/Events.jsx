@@ -46,7 +46,7 @@ function SimpleSlider() {
     ],
   };
   return (
-    <div className="events">
+    <div className="events" id="news">
       <h1>Events and Recent News</h1>
       <Slider {...settings}>
         {recentNewsAndEvent.map((item) => (

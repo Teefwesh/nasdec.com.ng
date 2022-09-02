@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -16,7 +16,7 @@ import Logo from "../../image/logo.png";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="support">
       <div className=" grid grid--footer">
         <div className="logo-col">
           <div
@@ -62,8 +62,8 @@ const Footer = () => {
           </ul>
 
           <p className="copyright">
-            Copyright &copy; <span class="year">2022</span> by Nasdec School.
-            All rights reserved.
+            Copyright &copy; <span class="year">2022</span> by Nasdec Royal
+            School. All rights reserved.
           </p>
         </div>
 
@@ -109,7 +109,7 @@ const Footer = () => {
           <p className="footer-heading">About</p>
           <ul className="footer-nav">
             <li>
-              <Link className="footer-link" to="#">
+              <Link className="footer-link" to="#about">
                 Director's Speech
               </Link>
             </li>
@@ -119,7 +119,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link className="footer-link" to="#">
+              <Link className="footer-link" to="#counter">
                 Why NASDEC
               </Link>
             </li>

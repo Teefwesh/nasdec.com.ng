@@ -4,7 +4,7 @@ import "./Schools.css";
 
 const Schools = () => {
   return (
-    <div className="schools">
+    <div className="schools" id="schools">
       <h1>Enroll in Our Schools</h1>
       <SchoolCard />
     </div>

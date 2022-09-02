@@ -1,0 +1,46 @@
+.rightSide h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.rightSide p {
+  font-size: 1.7rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.schList {
+  list-style-type: none;
+}
+
+.schList > div {
+  display: flex;
+  align-items: center;
+}
+
+.schList > div > li {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  margin-left: 1.5rem;
+}
+
+.mission,
+.vission {
+  margin-top: 5rem;
+  padding: 1.5rem;
+  background: #e6f4fe;
+  border-radius: 10px;
+}
+
+.mission > h1,
+.vission h1 {
+  font-weight: 600;
+}
+
+@media (max-width: 500px) {
+  .schList div li {
+    font-size: 1.8rem;
+  }
+}

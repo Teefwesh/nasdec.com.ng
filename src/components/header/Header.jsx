@@ -38,14 +38,14 @@ const Header = () => {
 
       <div id="mobile">
         <div
-          className={showMenu ? "mobileBar active" : "mobileBar"}
+          className={"mobileBar " + (showMenu ? " active" : null)}
           onClick={() => setShowMenu(true)}
         >
           <FontAwesomeIcon icon={faBars} className="bars" />
         </div>
 
         <div
-          className={!showMenu ? "mobileTimes active" : "mobileTimes"}
+          className={"mobileTimes" + (!showMenu ? " active" : null)}
           onClick={() => setShowMenu(false)}
         >
           <FontAwesomeIcon icon={faTimes} className="bars" />

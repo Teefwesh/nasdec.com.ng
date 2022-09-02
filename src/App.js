@@ -1,22 +1,14 @@
 import React from "react";
+import { Route } from "react-router-dom";
 import "./App.css";
-import CounterUp from "./pages/counterUp/CounterUp";
-import DirectorSpeech from "./pages/directorSpeech/DirectorSpeech";
-import Events from "./pages/events/Events";
-import Footer from "./pages/footer/Footer";
-
+import About from "./pages/about/About";
 import Home from "./pages/home/Home";
-import Schools from "./pages/schools/Schools";
 
 const App = () => {
   return (
     <div>
-      <Home />
-      <DirectorSpeech />
-      <CounterUp />
-      <Schools />
-      <Events />
-      <Footer />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={About} />
     </div>
   );
 };

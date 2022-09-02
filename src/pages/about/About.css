@@ -1,0 +1,12 @@
+.aboutSides {
+  display: grid;
+  grid-template-columns: auto 20rem;
+  padding: 5rem 9%;
+  gap: 10rem;
+}
+
+@media (max-width: 865px) {
+  .aboutSides {
+    grid-template-columns: auto;
+  }
+}
