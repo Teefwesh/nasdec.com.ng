@@ -47,24 +47,24 @@ export const routes = [
   },
   {
     name: "News",
-    link: "/products",
+    link: "/",
   },
   {
     name: "Gallery",
-    link: "/contact",
+    link: "/",
   },
   {
     name: "Support",
-    link: "/services",
+    link: "/",
 
     subRoutes: [
       {
         name: "FAQ",
-        link: "/service/web-development",
+        link: "/",
       },
       {
         name: "Our Contact",
-        link: "/service/mobile-development",
+        link: "/",
       },
     ],
   },
