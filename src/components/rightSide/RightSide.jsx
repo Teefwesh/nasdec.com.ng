@@ -76,7 +76,7 @@ const RightSide = () => {
         <h1>Our Vission</h1>
         <p>
           Commitment to provide educational excellence for all, to empower and
-          inspire our learners to be creative, innovative and imporve them for
+          inspire our learners to be creative, innovative and improve them for
           successful careers in the global society.
         </p>
       </div>

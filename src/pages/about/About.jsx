@@ -1,15 +1,15 @@
 import React from "react";
 import "./About.css";
-import Header from "../../components/header/Header";
 import ImageHeader from "../../components/imageHeader/ImageHeader";
 import Footer from "../footer/Footer";
 import RightSide from "../../components/rightSide/RightSide";
 import LeftSide from "../../components/leftSide/LeftSide";
+import Navigation from "../../components/Navigation/Navigation";
 
 const About = () => {
   return (
     <div className="about">
-      <Header />
+      <Navigation />
       <ImageHeader />
       <div className="aboutSides">
         <RightSide />

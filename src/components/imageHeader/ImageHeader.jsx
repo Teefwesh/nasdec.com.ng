@@ -1,6 +1,6 @@
 import React from "react";
 import "./ImageHeader.css";
-import Building from "../../image/building1.jpeg";
+import Building from "../../image/building4.jpeg";
 
 const ImageHeader = () => {
   return (

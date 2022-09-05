@@ -33,6 +33,15 @@
   margin-bottom: 2.6rem;
 }
 
+.moreLink:visited,
+.moreLink:active {
+  color: #fff;
+}
+
+.moreLink:hover {
+  color: #2424ba;
+}
+
 @media (max-width: 1000px) {
   .directorSpeech {
     grid-template-columns: repeat(1, 1fr);

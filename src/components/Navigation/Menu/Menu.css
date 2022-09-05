@@ -1,0 +1,50 @@
+.menu {
+  position: relative;
+  display: inline-block;
+}
+
+.menu:hover > .subRoutesContainer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.menuButton {
+  padding: 1rem;
+  color: #000;
+  cursor: pointer;
+}
+
+.menuButton:hover {
+  transition: 0.5s ease;
+  color: #5454f5;
+}
+
+.subRoutesContainer {
+  position: absolute;
+  min-width: 17.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  border-radius: 1rem;
+  left: -1rem;
+  font-size: 1.7rem;
+  font-weight: 400;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.subRoute {
+  color: #000;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  z-index: 999;
+}
+
+.subRoute:hover {
+  transition: all 0.3s ease-in;
+  color: #fff;
+  background-color: #5454f5;
+}

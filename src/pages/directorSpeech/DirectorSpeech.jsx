@@ -1,6 +1,7 @@
 import React from "react";
 import "./DirectorSpeech.css";
 import Director from "../../image/Nasdec.png";
+import { HashLink as Link } from "react-router-hash-link";
 
 const DirectorSpeech = () => {
   return (
@@ -16,7 +17,11 @@ const DirectorSpeech = () => {
           reputation as one of the leading schools in the state.
         </p>
 
-        <button className="btn">Read More</button>
+        <button className="btn">
+          <Link to="/about" className="moreLink">
+            Read More
+          </Link>
+        </button>
       </div>
     </div>
   );

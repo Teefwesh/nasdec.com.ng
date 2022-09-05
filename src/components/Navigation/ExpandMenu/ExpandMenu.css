@@ -1,0 +1,41 @@
+.expandMenuButton {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.expandSubRoutesContainer.active {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+.expandSubRoutesContainer.inactive {
+  display: none;
+}
+
+.expandSubRoute {
+  color: #000;
+  font-size: 1.7rem;
+  padding: 1rem;
+
+  background: #f5f5f5;
+}
+
+.expandSubRoute:nth-child(1) {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.expandSubRoute:last-child {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.expandSubRoute:hover {
+  transition: all 0.3s ease-in;
+  color: #fff;
+  background-color: #5454f5;
+}

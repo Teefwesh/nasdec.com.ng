@@ -14,7 +14,7 @@ const ImageSlider = () => {
             className="d-block w-100"
             src={Creche}
             alt="First slide"
-            style={{ width: "100%", height: "600px", objectFit: "cover" }}
+            style={{ width: "100%", height: "670px", objectFit: "cover" }}
           />
 
           <Carousel.Caption>
@@ -43,7 +43,7 @@ const ImageSlider = () => {
             className="d-block w-100"
             src={Image1}
             alt="Second slide"
-            style={{ width: "100%", height: "600px", objectFit: "cover" }}
+            style={{ width: "100%", height: "670px", objectFit: "cover" }}
           />
 
           <Carousel.Caption>
@@ -72,7 +72,7 @@ const ImageSlider = () => {
             className="d-block w-100"
             src={Image2}
             alt="Third slide"
-            style={{ width: "100%", height: "600px", objectFit: "cover" }}
+            style={{ width: "100%", height: "670px", objectFit: "cover" }}
           />
 
           <Carousel.Caption>

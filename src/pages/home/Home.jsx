@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../../components/header/Header";
+import Navigation from "../../components/Navigation/Navigation";
 import ImageSlider from "../../components/imageSlider/ImageSlider";
 import CounterUp from "../counterUp/CounterUp";
 import DirectorSpeech from "../directorSpeech/DirectorSpeech";
@@ -11,7 +11,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="home" id="home">
-      <Header />
+      <Navigation />
       <ImageSlider />
       <DirectorSpeech />
       <CounterUp />
