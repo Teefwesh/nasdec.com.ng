@@ -2,6 +2,15 @@
   text-transform: uppercase;
   font-weight: 900;
   font-size: 3rem;
+  background-image: linear-gradient(98.63deg, #2424ba 0%, #9b161b 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.rightSide h2 {
+  background-image: linear-gradient(98.63deg, #2424ba 0%, #9b161b 100%);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .rightSide p {

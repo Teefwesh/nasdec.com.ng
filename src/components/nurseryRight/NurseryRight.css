@@ -1,0 +1,18 @@
+.rightSide {
+  color: #333;
+}
+
+.rightSide p {
+  font-size: 1.7rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.learningList {
+  margin-left: 3rem;
+}
+
+.learningList > li {
+  font-size: 1.6rem;
+  line-height: 1.8;
+}

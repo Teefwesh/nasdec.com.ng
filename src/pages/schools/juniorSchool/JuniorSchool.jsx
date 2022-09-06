@@ -1,0 +1,26 @@
+import React from "react";
+import JuniorSchoolRight from "../../../components/juniorSchoolRight/JuniorSchoolRight";
+import JuniorSchoolLeft from "../../../components/juniorSchoolLeft/JuniorSchoolLeft";
+
+import Navigation from "../../../components/Navigation/Navigation";
+import Banner from "../../../image/banner.jpg";
+import Footer from "../../footer/Footer";
+
+const Basic = () => {
+  return (
+    <div className="mainContainer">
+      <Navigation />
+      <div className="imgHeader">
+        <img src={Banner} alt="nasdec royal school building" id="overlay" />
+        <h1> Junior School </h1>
+      </div>
+      <div className="contentSides">
+        <JuniorSchoolRight />
+        <JuniorSchoolLeft />
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+export default Basic;

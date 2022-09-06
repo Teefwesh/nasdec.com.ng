@@ -130,17 +130,17 @@ const Footer = () => {
           <p className="footer-heading">Schools</p>
           <ul className="footer-nav">
             <li>
-              <Link className="footer-link" to="#">
+              <Link className="footer-link" to="/schools/nursery">
                 Nursery
               </Link>
             </li>
             <li>
-              <Link className="footer-link" to="#">
+              <Link className="footer-link" to="/schools/primary">
                 Primary
               </Link>
             </li>
             <li>
-              <Link className="footer-link" to="#">
+              <Link className="footer-link" to="/schools/highschool">
                 College
               </Link>
             </li>
@@ -152,7 +152,7 @@ const Footer = () => {
           <ul className="footer-nav">
             <li>
               <Link className="footer-link" to="#">
-                Facilities
+                News
               </Link>
             </li>
             <li>

@@ -14,19 +14,19 @@ export const routes = [
     subRoutes: [
       {
         name: "Nursery",
-        link: "/",
+        link: "/schools/nursery",
       },
       {
         name: "Basic",
-        link: "/",
+        link: "/schools/basic",
       },
       {
         name: "Junior School",
-        link: "/",
+        link: "/schools/juniorschool",
       },
       {
         name: "High School",
-        link: "/",
+        link: "/schools/highschool",
       },
     ],
   },

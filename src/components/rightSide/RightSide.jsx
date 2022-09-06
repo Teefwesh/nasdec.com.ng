@@ -54,10 +54,13 @@ const RightSide = () => {
       <p style={{ marginTop: "3.5rem" }}>
         Nasdec Royal College is approved by WAEC, NECO and the government. We
         work closely with parents to foster self-discipline, responsibility,
-        confidence and an enthusiasm for learning. We take pride in our diverse
-        community and ensure that our children understand the value of growing
-        and learning together. We also take great care to ensure that our
-        curriculum and facilities are exciting, challenging and innovative.
+        confidence and an enthusiasm for learning. <br />
+        The Nasdec Nursery and Primary schools is equally approved by government
+        to offer quality education and issue relevant certificates. We take
+        pride in our diverse community and ensure that our children understand
+        the value of growing and learning together. We also take great care to
+        ensure that our curriculum and facilities are exciting, challenging and
+        innovative.
       </p>
       <p>
         Nasdec Royal Schools enjoys a reputation as one of the leading schools
