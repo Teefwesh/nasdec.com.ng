@@ -8,6 +8,10 @@ import Basic from "./pages/schools/basic/Basic";
 import Nursery from "./pages/schools/nursery/Nursery";
 import HighSchool from "./pages/schools/highSchool/HighSchool";
 import JuniorSchool from "./pages/schools/juniorSchool/JuniorSchool";
+import Contact from "./pages/contact/Contact";
+import ICT from "./pages/ICT/ICT";
+import FAQ from "./pages/contact/FAQ/FAQ";
+import AdmissionGuide from "./pages/admission/admissionGuide/AdmissionGuide";
 
 const App = () => {
   useEffect(() => {
@@ -18,11 +22,19 @@ const App = () => {
     <div>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
+      <Route exact path="/facilities/ICT&multimedia" component={ICT} />
       <Route exact path="/schools/nursery" component={Nursery} />
       <Route exact path="/schools/basic" component={Basic} />
-      <Route exact path="/schools/juniorschool" component={JuniorSchool} />
-      <Route exact path="/schools/highschool" component={HighSchool} />
+      <Route exact path="/schools/juniorcollege" component={JuniorSchool} />
+      <Route exact path="/schools/seniorcollege" component={HighSchool} />
+      <Route
+        exact
+        path="/admission/admissionguide"
+        component={AdmissionGuide}
+      />
       <Route exact path="/gallery" component={Gallery} />
+      <Route exact path="/support/FAQ" component={FAQ} />
+      <Route exact path="/support/contact" component={Contact} />
     </div>
   );
 };

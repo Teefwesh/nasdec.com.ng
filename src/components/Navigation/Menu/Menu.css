@@ -21,7 +21,7 @@
 
 .subRoutesContainer {
   position: absolute;
-  min-width: 17.5rem;
+  min-width: 19rem;
   display: flex;
   flex-direction: column;
   background-color: #fff;

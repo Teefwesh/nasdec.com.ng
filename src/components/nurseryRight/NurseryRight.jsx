@@ -5,15 +5,14 @@ const NurseryRight = () => {
   return (
     <div className="rightSide">
       <p>
-        Nasdec Royal Nursery School is a foundation school for children from 18
-        months to 5years. Our teaching staff are experienced early years
+        Nasdec Royal Nursery School is a foundation school for children from 3
+        months to 6years. Our teaching staff are experienced early years
         educators.{" "}
       </p>
       <p>
-        Home work is a reinforcement of all taught concepts. Home work is sent
-        thrice in a week; Monday, Wednesday and Friday and it includes
-        activities such as soft activities, reading, writing, craft and
-        research.
+        Home work is a reinforcement of all taught concepts. We give a minimum
+        of 3 assignments each day to test the children on the lessons given each
+        day.
       </p>
       <br />
       <p>

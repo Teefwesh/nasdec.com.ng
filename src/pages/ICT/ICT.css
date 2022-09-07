@@ -1,0 +1,54 @@
+.introSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8rem;
+  padding: 6rem 9% 0;
+}
+
+.jnrImgHeader h1 {
+  font-size: 7rem;
+}
+
+.introSection img {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.introSection img:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.introSection p,
+.ictBody p {
+  font-size: 1.9rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.ictBody {
+  padding: 2.5rem 9%;
+}
+
+@media (max-width: 1115px) {
+  .jnrImgHeader h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 865px) {
+  .introSection {
+    grid-template-columns: auto;
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 599px) {
+  .introSection img {
+    width: 300px;
+    height: 250px;
+  }
+}

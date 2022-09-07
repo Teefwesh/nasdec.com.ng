@@ -1,0 +1,37 @@
+.contact__form .form-control {
+  padding: 1.357rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0;
+  border: 1px solid #999;
+  font-size: 1.5rem;
+}
+
+.contact__form input.form-control {
+  margin-bottom: 2em;
+  /* height: calc(2.5em + 0.75rem + 2px); */
+}
+
+.emailDetails {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 5rem;
+  position: relative;
+}
+
+.emailDetails span {
+  position: absolute;
+  top: 2.5rem;
+  left: 4rem;
+  color: #555;
+  font-size: 1.7rem;
+}
+
+.ac_btn {
+  padding: 0.75rem 4rem;
+  font-size: 2rem;
+}
+
+.row {
+  --bs-gutter-x: 5.5rem;
+}

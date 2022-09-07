@@ -1,22 +1,23 @@
 import React from "react";
-import BasicRight from "../../../components/basicRight/BasicRight";
-import BasicLeft from "../../../components/basicLeft/BasicLeft";
+import FaqLeft from "../../../components/faqLeft/FaqLeft";
+import FaqRight from "../../../components/faqRight/FaqRight";
+
 import Navigation from "../../../components/Navigation/Navigation";
-import Banner from "../../../image/practical.jpeg";
+import Banner from "../../../image/FAQ.jpeg";
 import Footer from "../../footer/Footer";
-import "./Basic.css";
+import "./FAQ.css";
 
 const Basic = () => {
   return (
     <div className="mainContainer">
       <Navigation />
-      <div className="imgHeader">
+      <div className="imgHeader faqImgHeader">
         <img src={Banner} alt="nasdec royal school building" id="overlay" />
-        <h1> Basic </h1>
+        <h1> FAQ </h1>
       </div>
-      <div className="contentSides">
-        <BasicRight />
-        <BasicLeft />
+      <div className="faqContentSides">
+        <FaqRight />
+        <FaqLeft />
       </div>
       <Footer />
     </div>

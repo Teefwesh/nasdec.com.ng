@@ -33,6 +33,7 @@
   margin-bottom: 2.6rem;
 }
 
+.moreLink:link,
 .moreLink:visited,
 .moreLink:active {
   color: #fff;

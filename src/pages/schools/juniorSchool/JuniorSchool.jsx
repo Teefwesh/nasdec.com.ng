@@ -3,14 +3,14 @@ import JuniorSchoolRight from "../../../components/juniorSchoolRight/JuniorSchoo
 import JuniorSchoolLeft from "../../../components/juniorSchoolLeft/JuniorSchoolLeft";
 
 import Navigation from "../../../components/Navigation/Navigation";
-import Banner from "../../../image/banner.jpg";
+import Banner from "../../../image/computer2.jpeg";
 import Footer from "../../footer/Footer";
 
 const Basic = () => {
   return (
     <div className="mainContainer">
       <Navigation />
-      <div className="imgHeader">
+      <div className="imgHeader jnrImgHeader">
         <img src={Banner} alt="nasdec royal school building" id="overlay" />
         <h1> Junior School </h1>
       </div>

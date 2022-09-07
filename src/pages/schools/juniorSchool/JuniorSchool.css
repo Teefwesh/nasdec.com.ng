@@ -1,6 +1,6 @@
-.nurImgHeader > img {
+.jnrImgHeader > img {
   width: 100%;
-  height: 550px;
+  height: 500px;
   object-fit: cover;
   /* object-position: ; */
   position: relative;

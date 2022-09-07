@@ -8,6 +8,29 @@ export const routes = [
     link: "/about",
   },
   {
+    name: "Facilities",
+    link: "/",
+
+    subRoutes: [
+      {
+        name: "ICT & Multimedia",
+        link: "/facilities/ICT&multimedia",
+      },
+      {
+        name: "Lab and Library",
+        link: "/",
+      },
+      {
+        name: "Bright Classrooms",
+        link: "/",
+      },
+      {
+        name: "Music Studio",
+        link: "/",
+      },
+    ],
+  },
+  {
     name: "Schools",
     link: "/services",
 
@@ -21,12 +44,12 @@ export const routes = [
         link: "/schools/basic",
       },
       {
-        name: "Junior School",
-        link: "/schools/juniorschool",
+        name: "Junior College",
+        link: "/schools/juniorcollege",
       },
       {
-        name: "High School",
-        link: "/schools/highschool",
+        name: "Senior College",
+        link: "/schools/seniorcollege",
       },
     ],
   },
@@ -37,7 +60,7 @@ export const routes = [
     subRoutes: [
       {
         name: "Admission Guide",
-        link: "/",
+        link: "/admission/admissionguide",
       },
       {
         name: "Enroll Now",
@@ -60,11 +83,11 @@ export const routes = [
     subRoutes: [
       {
         name: "FAQ",
-        link: "/",
+        link: "/support/FAQ",
       },
       {
         name: "Our Contact",
-        link: "/",
+        link: "/support/contact",
       },
     ],
   },
