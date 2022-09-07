@@ -22,19 +22,15 @@ const App = () => {
     <div>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
-      <Route exact path="/facilities/ICT&multimedia" component={ICT} />
-      <Route exact path="/schools/nursery" component={Nursery} />
-      <Route exact path="/schools/basic" component={Basic} />
-      <Route exact path="/schools/juniorcollege" component={JuniorSchool} />
-      <Route exact path="/schools/seniorcollege" component={HighSchool} />
-      <Route
-        exact
-        path="/admission/admissionguide"
-        component={AdmissionGuide}
-      />
+      <Route exact path="/ICT&multimedia" component={ICT} />
+      <Route exact path="/nursery" component={Nursery} />
+      <Route exact path="/basic" component={Basic} />
+      <Route exact path="/juniorcollege" component={JuniorSchool} />
+      <Route exact path="/seniorcollege" component={HighSchool} />
+      <Route exact path="/admissionguide" component={AdmissionGuide} />
       <Route exact path="/gallery" component={Gallery} />
-      <Route exact path="/support/FAQ" component={FAQ} />
-      <Route exact path="/support/contact" component={Contact} />
+      <Route exact path="/FAQ" component={FAQ} />
+      <Route exact path="/contact" component={Contact} />
     </div>
   );
 };

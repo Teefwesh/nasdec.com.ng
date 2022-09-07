@@ -14,7 +14,7 @@ export const routes = [
     subRoutes: [
       {
         name: "ICT & Multimedia",
-        link: "/facilities/ICT&multimedia",
+        link: "/ICT&multimedia",
       },
       {
         name: "Lab and Library",
@@ -37,19 +37,19 @@ export const routes = [
     subRoutes: [
       {
         name: "Nursery",
-        link: "/schools/nursery",
+        link: "/nursery",
       },
       {
         name: "Basic",
-        link: "/schools/basic",
+        link: "/basic",
       },
       {
         name: "Junior College",
-        link: "/schools/juniorcollege",
+        link: "/juniorcollege",
       },
       {
         name: "Senior College",
-        link: "/schools/seniorcollege",
+        link: "/seniorcollege",
       },
     ],
   },
@@ -60,7 +60,7 @@ export const routes = [
     subRoutes: [
       {
         name: "Admission Guide",
-        link: "/admission/admissionguide",
+        link: "/admissionguide",
       },
       {
         name: "Enroll Now",
@@ -83,11 +83,11 @@ export const routes = [
     subRoutes: [
       {
         name: "FAQ",
-        link: "/support/FAQ",
+        link: "/FAQ",
       },
       {
         name: "Our Contact",
-        link: "/support/contact",
+        link: "/contact",
       },
     ],
   },
