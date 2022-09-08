@@ -16,7 +16,7 @@ const News = () => {
   const slice = news.cardData.slice(0, noOfElement);
 
   return (
-    <div>
+    <>
       <Navigation />
       <div className="imgHeader newsImgHeader">
         <img src={Banner} alt="nasdec royal school building" id="overlay" />
@@ -43,7 +43,7 @@ const News = () => {
           })}
         </div>
 
-        <div className="text-center">
+        <div className="loadBtn">
           <button
             className="btn btn-primary mx-auto d-block w-100"
             onClick={() => loadMore()}
@@ -54,7 +54,7 @@ const News = () => {
       </section>
 
       <Footer />
-    </div>
+    </>
   );
 };
 

@@ -4,6 +4,7 @@ import { GalleryData } from "../../data/GalleryData";
 import { motion } from "framer-motion";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import Navigation from "../../components/Navigation/Navigation";
+import Footer from "../footer/Footer";
 
 const Gallery = () => {
   const [tag, setTag] = useState("all");
@@ -64,6 +65,8 @@ const Gallery = () => {
           </Masonry>
         </ResponsiveMasonry>
       </motion.div>
+
+      <Footer />
     </div>
   );
 };

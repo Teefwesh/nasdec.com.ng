@@ -76,6 +76,10 @@
   font-size: 1.8rem;
 }
 
+.loadBtn {
+  margin: 0 20px;
+}
+
 .readBtn:hover {
   animation: buttonH 2s;
 }

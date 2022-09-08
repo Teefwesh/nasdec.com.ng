@@ -21,6 +21,7 @@
   font-size: 1.7rem;
   padding: 1rem;
   background: #f5f5f5;
+  text-decoration: none;
 }
 
 .expandSubRoute:nth-child(1) {
