@@ -17,7 +17,7 @@ const DirectorSpeech = () => {
           reputation as one of the leading schools in the state.
         </p>
 
-        <button className="btn">
+        <button className="btnButton">
           <Link to="/about" className="moreLink">
             Read More
           </Link>

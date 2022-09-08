@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
 import { Route } from "react-router-dom";
 import "./App.css";
+// import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
 import About from "./pages/about/About";
 import Gallery from "./pages/gallery/Gallery";
+import News from "./pages/news/News";
 import Home from "./pages/home/Home";
 import Basic from "./pages/schools/basic/Basic";
 import Nursery from "./pages/schools/nursery/Nursery";
@@ -29,6 +32,7 @@ const App = () => {
       <Route exact path="/seniorcollege" component={HighSchool} />
       <Route exact path="/admissionguide" component={AdmissionGuide} />
       <Route exact path="/gallery" component={Gallery} />
+      <Route exact path="/news" component={News} />
       <Route exact path="/FAQ" component={FAQ} />
       <Route exact path="/contact" component={Contact} />
     </div>

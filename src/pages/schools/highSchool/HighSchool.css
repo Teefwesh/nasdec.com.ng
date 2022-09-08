@@ -6,3 +6,9 @@
   position: relative;
   z-index: -1;
 }
+
+@media (max-width: 462px) {
+  .snrImgHeader h1 {
+    font-size: 5rem !important ;
+  }
+}

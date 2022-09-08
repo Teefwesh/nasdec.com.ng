@@ -70,11 +70,11 @@ export const routes = [
   },
   {
     name: "News",
-    link: "/",
+    link: "/news",
   },
   {
     name: "Gallery",
-    link: "/",
+    link: "/gallery",
   },
   {
     name: "Support",

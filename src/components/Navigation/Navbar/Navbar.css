@@ -47,6 +47,7 @@
 .navRoute:visited {
   color: #000;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .navRoute:hover {

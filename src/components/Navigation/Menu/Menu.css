@@ -41,6 +41,7 @@
   padding: 0.5rem;
   border-radius: 0.5rem;
   z-index: 999;
+  text-decoration: none;
 }
 
 .subRoute:hover {

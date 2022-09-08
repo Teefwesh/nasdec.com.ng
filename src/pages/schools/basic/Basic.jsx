@@ -10,7 +10,7 @@ const Basic = () => {
   return (
     <div className="mainContainer">
       <Navigation />
-      <div className="imgHeader">
+      <div className="imgHeader basicImgHeader">
         <img src={Banner} alt="nasdec royal school building" id="overlay" />
         <h1> Basic </h1>
       </div>

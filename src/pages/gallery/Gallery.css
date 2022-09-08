@@ -2,8 +2,6 @@
   width: 80%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
 }
 
 .image-card {
@@ -14,4 +12,49 @@
 
 .image {
   width: 100%;
+  overflow: hidden;
+}
+
+.image:hover {
+  transform: scale(1.02);
+  transition: all 0.3s;
+}
+
+.tags {
+  text-align: center;
+  padding: 15rem 0 2rem;
+}
+
+.btnTags {
+  margin-right: 40px;
+  padding: 2px 20px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.7rem;
+  background: var(--buttonBg);
+  border: 1px solid transparent;
+  border-radius: 7px;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.75;
+}
+
+.activate {
+  border: 1px solid var(--light-blue);
+  color: #000;
+  background: transparent;
+  opacity: 1;
+  /* transition: all 0.3s ease-in-out; */
+}
+
+@media (max-width: 620px) {
+  .btnTags {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .btnTags {
+    font-size: 1.5rem;
+    padding: 2px 10px;
+  }
 }
