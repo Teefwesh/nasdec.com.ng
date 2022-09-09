@@ -55,9 +55,8 @@ const Lab = () => {
         </p>
         <br />
         <p>
-          <b style={{ fontWeight: "600" }}>
-            Computer Lab - Windows open the door to worldwide wisdom.
-          </b>
+          <b style={{ fontWeight: "600" }}>Computer Lab</b> - Windows open the
+          door to worldwide wisdom.
         </p>
         <p>
           Today, all over the world, Information and Communication Technology
