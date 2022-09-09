@@ -9,7 +9,7 @@ export const routes = [
   },
   {
     name: "Facilities",
-    link: "/",
+    link: "/#",
 
     subRoutes: [
       {
@@ -18,15 +18,15 @@ export const routes = [
       },
       {
         name: "Lab and Library",
-        link: "/",
+        link: "/lab",
       },
       {
         name: "Bright Classrooms",
-        link: "/",
+        link: "/brightclassroom",
       },
       {
         name: "Music Studio",
-        link: "/",
+        link: "/musicstudio",
       },
     ],
   },

@@ -1,7 +1,7 @@
 import React from "react";
-import Navigation from "../../components/Navigation/Navigation";
-import Banner from "../../image/computer2.jpeg";
-import Footer from "../footer/Footer";
+import Navigation from "../../../components/Navigation/Navigation";
+import Banner from "../../../image/computer2.jpeg";
+import Footer from "../../footer/Footer";
 import "./ICT.css";
 
 const ICT = () => {

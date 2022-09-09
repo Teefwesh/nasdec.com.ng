@@ -6,7 +6,7 @@
 }
 
 .jnrImgHeader h1 {
-  font-size: 7rem;
+  font-size: 6.5rem;
 }
 
 .introSection img {
@@ -15,6 +15,10 @@
   object-fit: cover;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.labSection img {
+  margin-top: 5rem;
 }
 
 .introSection img:hover {
@@ -26,7 +30,8 @@
 .ictBody p {
   font-size: 1.9rem;
   font-weight: 300;
-  line-height: 1.6;
+  line-height: 1.5;
+  text-align: justify;
 }
 
 .ictBody {
