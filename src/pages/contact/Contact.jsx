@@ -18,6 +18,7 @@ const Contact = () => {
 
       <iframe
         id="gmap_canvas"
+        title="Google map address to Nasdec Royal School"
         src="https://maps.google.com/maps?q=Nasdec%20Royal%20school&t=&z=13&ie=UTF8&iwloc=&output=embed"
         frameborder="0"
         scrolling="no"
