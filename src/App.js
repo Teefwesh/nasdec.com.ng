@@ -21,6 +21,7 @@ import AdmissionGuide from "./pages/admission/admissionGuide/AdmissionGuide";
 import FAQ from "./pages/contact/FAQ/FAQ";
 import Contact from "./pages/contact/Contact";
 import MusicStudio from "./pages/facilities/music/MusicStudio";
+import Post1 from "./pages/news/posts/Post1";
 
 const App = () => {
   useEffect(() => {
@@ -48,6 +49,8 @@ const App = () => {
       <Route exact path="/admissionguide" component={AdmissionGuide} />
       <Route exact path="/FAQ" component={FAQ} />
       <Route exact path="/contact" component={Contact} />
+
+      <Route exact path="/post1" component={Post1} />
     </div>
   );
 };

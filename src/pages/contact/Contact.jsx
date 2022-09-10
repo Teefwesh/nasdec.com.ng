@@ -16,6 +16,16 @@ const Contact = () => {
         {/* <h1> Contact Us</h1> */}
       </div>
 
+      <iframe
+        id="gmap_canvas"
+        src="https://maps.google.com/maps?q=Nasdec%20Royal%20school&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+        style={{ width: "100%", height: "500px", padding: "3rem 8%" }}
+      ></iframe>
+
       <Container
         style={{
           fontSize: "1.8rem",
@@ -26,7 +36,7 @@ const Contact = () => {
           <Col lg="7" className="d-flex align-items-center">
             <form className="contact__form w-100">
               <h3 className="color_sec py-4" style={{ fontSize: "3rem" }}>
-                Get in Touch
+                Get in Touch Now
               </h3>
               <Row>
                 <Col lg="6" className="form-group">

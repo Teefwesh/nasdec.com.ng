@@ -33,7 +33,7 @@ const News = () => {
                     <div className="card-title">{item.title}</div>
                     <div className="card-date">{item.date}</div>
                     <p className="card-text">{item.desc}</p>
-                    <Link to="/news" className="readBtn">
+                    <Link to="#" className="readBtn">
                       Read More
                     </Link>
                   </div>

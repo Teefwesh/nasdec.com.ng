@@ -19,6 +19,7 @@ html {
   --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   --border: 0.1rem solid rgba(0, 0, 0, 0.1);
   --buttonBg: linear-gradient(98.63deg, #2424ba 0%, #9b161b 100%);
+  --bread: linear-gradient(98.63deg, #131380 0%, #760c0f 100%);
 }
 
 a {
