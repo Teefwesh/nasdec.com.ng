@@ -99,7 +99,7 @@ const Footer = () => {
                 to=""
                 style={{ wordWrap: "break-word" }}
               >
-                nasdecroyalschools@yahoo.com
+                info@nasdec.com.ng
               </Link>
             </p>
           </address>
@@ -109,17 +109,13 @@ const Footer = () => {
           <p className="footer-heading">About</p>
           <ul className="footer-nav">
             <li>
-              <Link className="footer-link" to="#about">
+              <Link className="footer-link" to="/#about">
                 Director's Speech
               </Link>
             </li>
+
             <li>
-              <Link className="footer-link" to="#">
-                History
-              </Link>
-            </li>
-            <li>
-              <Link className="footer-link" to="#counter">
+              <Link className="footer-link" to="/#counter">
                 Why NASDEC
               </Link>
             </li>
@@ -130,18 +126,23 @@ const Footer = () => {
           <p className="footer-heading">Schools</p>
           <ul className="footer-nav">
             <li>
-              <Link className="footer-link" to="/schools/nursery">
+              <Link className="footer-link" to="/nursery">
                 Nursery
               </Link>
             </li>
             <li>
-              <Link className="footer-link" to="/schools/primary">
-                Primary
+              <Link className="footer-link" to="/basic">
+                Basic
               </Link>
             </li>
             <li>
-              <Link className="footer-link" to="/schools/highschool">
-                College
+              <Link className="footer-link" to="/juniorcollege">
+                Junior College
+              </Link>
+            </li>
+            <li>
+              <Link className="footer-link" to="/seniorcollege">
+                Senior College
               </Link>
             </li>
           </ul>
@@ -151,22 +152,22 @@ const Footer = () => {
           <p className="footer-heading">Quick Links</p>
           <ul className="footer-nav">
             <li>
-              <Link className="footer-link" to="#">
+              <Link className="footer-link" to="/news">
                 News
               </Link>
             </li>
             <li>
-              <Link className="footer-link" to="#">
+              <Link className="footer-link" to="/admissionguide">
                 Admission
               </Link>
             </li>
             <li>
-              <Link className="footer-link" to="#">
+              <Link className="footer-link" to="/gallery">
                 Gallery
               </Link>
             </li>
             <li>
-              <Link className="footer-link" to="#">
+              <Link className="footer-link" to="/contact">
                 Support
               </Link>
             </li>

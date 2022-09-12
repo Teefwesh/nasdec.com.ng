@@ -5,14 +5,60 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsTelephone, BsHouseDoor } from "react-icons/bs";
 import Navigation from "../../components/Navigation/Navigation";
 import Banner from "../../image/contact.jpeg";
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
+import Copywrite from "../../components/copywrite/Copywrite";
+
+import { ToastContainer, toast, Slide } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
+  const formRef = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_x6xnr0r",
+        "template_7konwmi",
+        formRef.current,
+        "Yt8RUMLUvpTfl81m"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    const resolveAfter3Sec = new Promise((resolve) =>
+      setTimeout(resolve, 1000)
+    );
+    toast.promise(resolveAfter3Sec, {
+      pending: "Processing",
+      success: "Message Sent Successfully",
+      error: "Message rejected",
+    });
+
+    e.target.reset();
+
+    // toast.success("Message Sent Successfully");
+  };
+
   return (
     <div>
       <Navigation />
 
       <div className="imgHeader">
-        <img src={Banner} alt="nasdec royal school building" id="overlay" />
+        <img
+          src={Banner}
+          alt="nasdec royal school building"
+          id="overlay"
+          style={{ height: "350px" }}
+        />
         {/* <h1> Contact Us</h1> */}
       </div>
 
@@ -30,14 +76,18 @@ const Contact = () => {
       <Container
         style={{
           fontSize: "1.8rem",
-          padding: "5rem 6% 3rem",
+          padding: "5rem 6% 10rem",
         }}
       >
         <Row className="sec_sp">
           <Col lg="7" className="d-flex align-items-center">
-            <form className="contact__form w-100">
+            <form
+              ref={formRef}
+              onSubmit={sendEmail}
+              className="contact__form w-100"
+            >
               <h3 className="color_sec py-4" style={{ fontSize: "3rem" }}>
-                Get in Touch Now
+                Get in Touch
               </h3>
               <Row>
                 <Col lg="6" className="form-group">
@@ -47,6 +97,7 @@ const Contact = () => {
                     name="name"
                     placeholder="Name"
                     type="text"
+                    required
                   />
                 </Col>
                 <Col lg="6" className="form-group">
@@ -56,6 +107,7 @@ const Contact = () => {
                     name="email"
                     placeholder="Email"
                     type="email"
+                    required
                   />
                 </Col>
                 <Col lg="12" className="form-group">
@@ -75,6 +127,7 @@ const Contact = () => {
                 placeholder="Message"
                 cols="30"
                 rows="5"
+                required
               ></textarea>
               <br />
               <Row>
@@ -99,7 +152,7 @@ const Contact = () => {
               <AiOutlineMail
                 style={{ width: "2.8rem", height: "2.8rem", color: "#555" }}
               />
-              <strong>nasdecroyalschools@yahoo.com</strong>
+              <strong>info@nasdec.com.ng</strong>
               <span>Send us your query anytime!</span>
             </p>
             <p className="emailDetails">
@@ -112,6 +165,21 @@ const Contact = () => {
           </Col>
         </Row>
       </Container>
+
+      <ToastContainer
+        position="bottom-left"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        transition={Slide}
+      />
+
+      <Copywrite />
     </div>
   );
 };

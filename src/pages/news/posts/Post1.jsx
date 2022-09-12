@@ -4,7 +4,8 @@ import "./Post.css";
 import Navigation from "../../../components/Navigation/Navigation";
 import { AiOutlineRight, AiOutlineLeft } from "react-icons/ai";
 import Img1 from "../../../image/best.jpeg";
-import Footer from "../../footer/Footer";
+// import Footer from "../../footer/Footer";
+import Copywrite from "../../../components/copywrite/Copywrite";
 
 const Post1 = () => {
   return (
@@ -60,7 +61,7 @@ const Post1 = () => {
         </div>
       </div>
 
-      <Footer />
+      <Copywrite />
     </>
   );
 };
