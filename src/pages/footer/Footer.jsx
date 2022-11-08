@@ -62,7 +62,7 @@ const Footer = () => {
           </ul>
 
           <p className="copyright">
-            Copyright &copy; <span class="year">2022</span> by Nasdec Royal
+            Copyright &copy; <span className="year">2022</span> by Nasdec Royal
             School. All rights reserved.
           </p>
         </div>

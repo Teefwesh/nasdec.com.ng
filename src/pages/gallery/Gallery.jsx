@@ -11,11 +11,15 @@ const Gallery = () => {
   const [tag, setTag] = useState("all");
   const [filteredImages, setFilteredImages] = useState([]);
 
+  const GalleryDataSorting = [...GalleryData].sort((a, b) => b.id - a.id);
+
   useEffect(() => {
     tag === "all"
-      ? setFilteredImages(GalleryData)
-      : setFilteredImages(GalleryData.filter((image) => image.tag === tag));
-  }, [tag]);
+      ? setFilteredImages(GalleryDataSorting)
+      : setFilteredImages(
+          GalleryDataSorting.filter((image) => image.tag === tag)
+        );
+  }, [tag, GalleryDataSorting]);
 
   return (
     <div>
@@ -39,9 +43,9 @@ const Gallery = () => {
           tagActive={tag === "nursery" ? true : false}
         />
         <TagButton
-          name="primary"
+          name="basic"
           handleSetTag={setTag}
-          tagActive={tag === "primary" ? true : false}
+          tagActive={tag === "basic" ? true : false}
         />
         <TagButton
           name="college"
@@ -63,7 +67,7 @@ const Gallery = () => {
                 className="image-card"
               >
                 <img
-                  src={item.imageName}
+                  src={item.imageUrl}
                   alt=""
                   className="image"
                   // style={{ width: "25rem", height: "25rem" }}
