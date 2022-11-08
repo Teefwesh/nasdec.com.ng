@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import Navigation from "../../components/Navigation/Navigation";
 import Footer from "../footer/Footer";
+import { Helmet } from "react-helmet";
 
 const Gallery = () => {
   const [tag, setTag] = useState("all");
@@ -18,6 +19,13 @@ const Gallery = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Gallery || Nasdec Royal Schools</title>
+        <meta
+          name="description"
+          content="Beautiful pictures about Nasdec Royal School students and other activities"
+        />
+      </Helmet>
       <Navigation />
       <div className="tags">
         <TagButton

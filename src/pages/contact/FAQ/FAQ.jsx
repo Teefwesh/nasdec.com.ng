@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import FaqLeft from "../../../components/faqLeft/FaqLeft";
 import FaqRight from "../../../components/faqRight/FaqRight";
 
@@ -10,6 +11,9 @@ import "./FAQ.css";
 const Basic = () => {
   return (
     <div className="mainContainer">
+      <Helmet>
+        <title>Frequently Asked Questions || Nasdec Royal Schools</title>
+      </Helmet>
       <Navigation />
       <div className="imgHeader faqImgHeader">
         <img src={Banner} alt="nasdec royal school building" id="overlay" />

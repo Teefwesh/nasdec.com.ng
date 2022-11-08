@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Navigation from "../../../components/Navigation/Navigation";
 import Banner from "../../../image/lab2.jpeg";
 import Footer from "../../footer/Footer";
@@ -7,6 +8,13 @@ import Footer from "../../footer/Footer";
 const Lab = () => {
   return (
     <div>
+      <Helmet>
+        <title>Science Lab and Library || Nasdec Royal Schools</title>
+        <meta
+          name="description"
+          content="Our well equiped science lab and always functioning library"
+        />
+      </Helmet>
       <Navigation />
       <div className="imgHeader jnrImgHeader">
         <img src={Banner} alt="Students in science Laboratory" id="overlay" />

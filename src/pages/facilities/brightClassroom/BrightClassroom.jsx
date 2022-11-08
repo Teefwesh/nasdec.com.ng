@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Navigation from "../../../components/Navigation/Navigation";
 import Banner from "../../../image/classroom.jpeg";
 import Footer from "../../footer/Footer";
@@ -6,6 +7,9 @@ import Footer from "../../footer/Footer";
 const BrightClassroom = () => {
   return (
     <div>
+      <Helmet>
+        <title>Bright Classroom || Nasdec Royal Schools</title>
+      </Helmet>
       <Navigation />
       <div className="imgHeader jnrImgHeader">
         <img src={Banner} alt="a view of our classroom" id="overlay" />

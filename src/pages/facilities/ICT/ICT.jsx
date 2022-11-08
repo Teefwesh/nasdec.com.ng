@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Navigation from "../../../components/Navigation/Navigation";
 import Banner from "../../../image/computer2.jpeg";
 import Footer from "../../footer/Footer";
@@ -7,6 +8,15 @@ import "./ICT.css";
 const ICT = () => {
   return (
     <div>
+      <Helmet>
+        <title>
+          Information Communication Technology || Nasdec Royal Schools
+        </title>
+        <meta
+          name="description"
+          content="Information communication Technology Lab in Nasdec"
+        />
+      </Helmet>
       <Navigation />
       <div className="imgHeader jnrImgHeader">
         <img src={Banner} alt="nasdec royal school building" id="overlay" />

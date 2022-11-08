@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import Navigation from "../../../components/Navigation/Navigation";
 import Banner from "../../../image/music.jpeg";
 import Footer from "../../footer/Footer";
@@ -6,6 +7,13 @@ import Footer from "../../footer/Footer";
 const MusicStudio = () => {
   return (
     <div>
+      <Helmet>
+        <title>Music Studio || Nasdec Royal Schools</title>
+        <meta
+          name="description"
+          content="With our music studio your wards will become professionals in musical instruments"
+        />
+      </Helmet>
       <Navigation />
       <div className="imgHeader jnrImgHeader">
         <img src={Banner} alt="nasdec royal school music studio" id="overlay" />

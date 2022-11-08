@@ -11,6 +11,7 @@ import Copywrite from "../../components/copywrite/Copywrite";
 
 import { ToastContainer, toast, Slide } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   const formRef = useRef();
@@ -23,7 +24,7 @@ const Contact = () => {
         "service_x6xnr0r",
         "template_7konwmi",
         formRef.current,
-        "Yt8RUMLUvpTfl81m"
+        "Yt8RUMLUvpTfl81mr"
       )
       .then(
         (result) => {
@@ -50,6 +51,13 @@ const Contact = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Contact us || Nasdec Royal Schools</title>
+        <meta
+          name="description"
+          content="Send a message to us, we are always available "
+        />
+      </Helmet>
       <Navigation />
 
       <div className="imgHeader">
@@ -167,7 +175,7 @@ const Contact = () => {
       </Container>
 
       <ToastContainer
-        position="bottom-left"
+        position="top-center"
         autoClose={3000}
         hideProgressBar={false}
         newestOnTop={false}
