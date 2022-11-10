@@ -1,32 +1,17 @@
-import Event4 from "../image/sport.jpeg";
-import Event3 from "../image/practical.jpeg";
-import Event1 from "../image/sport1.jpeg";
-import Event2 from "../image/sport2.jpeg";
-
 export const recentNewsAndEvent = [
   {
     id: 1,
-    title: "Inter House Sport",
-    desc: "Nasdec Royal college Inter-House sport event ",
-    image: Event1,
+    title: "Fruit Day",
+    desc: "Nasdec Royal college Fruit Day ",
+    image:
+      "https://res.cloudinary.com/teefwesh/image/upload/v1668093335/Nasdec/Fruit%20day/ED2FD03B-A537-4306-BC38-8CF1EED0824D_yeamfk.jpg",
   },
   {
     id: 2,
-    title: "Inter House Sport",
-    desc: "Nasdec Royal college Inter-House sport event ",
-    image: Event2,
-  },
-  {
-    id: 3,
-    title: "Title 3",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum",
-    image: Event3,
-  },
-  {
-    id: 4,
-    title: "Inter House Sport",
-    desc: "Nasdec Royal college Inter-House sport event ",
-    image: Event4,
+    title: "Fruit Day",
+    desc: "Nasdec Royal Basic Fruit Day ",
+    image:
+      "https://res.cloudinary.com/teefwesh/image/upload/v1668093922/Nasdec/Fruit%20day/Basic%20--fruit%20day/AB96EAE1-D4F0-4749-A762-950849C8E21B_iglo4z.jpg",
   },
   {
     id: 5,

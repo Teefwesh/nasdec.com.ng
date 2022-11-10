@@ -67,8 +67,8 @@ const Gallery = () => {
                 className="image-card"
               >
                 <img
-                  src={item.original}
-                  alt=""
+                  src={item.imageUrl}
+                  alt={item.name}
                   className="image"
                   // style={{ width: "25rem", height: "25rem" }}
                 />

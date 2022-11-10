@@ -11,6 +11,7 @@
   overflow: hidden;
   box-shadow: var(--box-shadow);
   transition: all 0.3s;
+  background: #fff;
 }
 
 .nurseryCard > div {
@@ -21,8 +22,8 @@
 .nurseryCard:hover {
   transform: translateY(-0.75rem);
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
-  background: rgb(213, 44, 50);
-  color: #fff;
+  /* background: rgb(213, 44, 50);
+  color: #fff; */
 }
 
 .cardLink {
@@ -30,9 +31,9 @@
   color: #444;
 }
 
-.nurseryCard:hover .cardLink {
+/* .nurseryCard:hover .cardLink {
   color: #fff;
-}
+} */
 
 .nurseryCard > div > img {
   width: 100%;
