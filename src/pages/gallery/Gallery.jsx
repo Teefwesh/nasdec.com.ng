@@ -19,7 +19,7 @@ const Gallery = () => {
       : setFilteredImages(
           GalleryDataSorting.filter((image) => image.tag === tag)
         );
-  }, [tag, GalleryDataSorting]);
+  }, [tag]);
 
   return (
     <div>
@@ -67,7 +67,7 @@ const Gallery = () => {
                 className="image-card"
               >
                 <img
-                  src={item.imageUrl}
+                  src={item.original}
                   alt=""
                   className="image"
                   // style={{ width: "25rem", height: "25rem" }}

@@ -10,6 +10,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <ScrollToTop />
+
       <App />
     </BrowserRouter>
   </React.StrictMode>
