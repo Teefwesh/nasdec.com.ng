@@ -36,7 +36,7 @@ const SchoolCard = () => {
         </h3>
       </div>
 
-      <div className="nurseryCard" data-aos="fade-left">
+      <div className="nurseryCard" data-aos="fade-right">
         <div>
           <img src={Secondary} alt="" />
         </div>
