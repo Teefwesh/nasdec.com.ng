@@ -1,15 +1,24 @@
 import React, { useEffect, useState } from "react";
-import "./Gallery.css";
-import { GalleryData } from "../../data/GalleryData";
 import { motion } from "framer-motion";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import { Helmet } from "react-helmet";
+import {
+  BsFillArrowLeftCircleFill,
+  BsFillArrowRightCircleFill,
+} from "react-icons/bs";
+import { FaTimes } from "react-icons/fa";
+
+import "./Gallery.css";
+import { GalleryData } from "../../data/GalleryData";
 import Navigation from "../../components/Navigation/Navigation";
 import Footer from "../footer/Footer";
-import { Helmet } from "react-helmet";
 
 const Gallery = () => {
   const [tag, setTag] = useState("all");
   const [filteredImages, setFilteredImages] = useState([]);
+
+  const [slideNumber, setSlideNumber] = useState(0);
+  const [openModal, setOpenModal] = useState(false);
 
   const GalleryDataSorting = [...GalleryData].sort((a, b) => b.id - a.id);
 
@@ -19,7 +28,30 @@ const Gallery = () => {
       : setFilteredImages(
           GalleryDataSorting.filter((image) => image.tag === tag)
         );
-  }, [tag]);
+  }, [tag, GalleryDataSorting]);
+
+  const handleOpenModal = (index) => {
+    setSlideNumber(index);
+    setOpenModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setOpenModal(false);
+  };
+
+  // Previous Image
+  const prevSlide = () => {
+    slideNumber === 0
+      ? setSlideNumber(filteredImages.length - 1)
+      : setSlideNumber(slideNumber - 1);
+  };
+
+  // Next Image
+  const nextSlide = () => {
+    slideNumber + 1 === filteredImages.length
+      ? setSlideNumber(0)
+      : setSlideNumber(slideNumber + 1);
+  };
 
   return (
     <div>
@@ -53,10 +85,22 @@ const Gallery = () => {
           tagActive={tag === "college" ? true : false}
         />
       </div>
+      {openModal && (
+        <div className="sliderWrap">
+          <FaTimes className="btnClose" onClick={handleCloseModal} />
+          <BsFillArrowLeftCircleFill className="btnPrev" onClick={prevSlide} />
+          <BsFillArrowRightCircleFill className="btnNext" onClick={nextSlide} />
+
+          <div className="fullScreenImage">
+            <img src={filteredImages[slideNumber].imageUrl} alt="" />
+          </div>
+        </div>
+      )}
+
       <motion.div layout className="image-container">
         <ResponsiveMasonry columnsCountBreakPoints={{ 350: 2, 750: 3, 900: 4 }}>
           <Masonry>
-            {filteredImages.map((item) => (
+            {filteredImages.map((item, index) => (
               <motion.div
                 layout
                 animate={{ opacity: 1 }}
@@ -65,6 +109,7 @@ const Gallery = () => {
                 transition={{ duration: 1 }}
                 key={item.id}
                 className="image-card"
+                onClick={() => handleOpenModal(index)}
               >
                 <img
                   src={item.imageUrl}

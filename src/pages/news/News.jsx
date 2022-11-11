@@ -34,7 +34,7 @@ const News = () => {
         <div className="row justify-content-center">
           {slice.map((item, index) => {
             return (
-              <div className="col-11 col-md-6 col-lg-4 mx-0 mb-4">
+              <div className="col-11 col-md-6 col-lg-4 mx-0 mb-4" key={index}>
                 <div className="card p-0 overflow-hidden h-100 shadow">
                   <img src={item.img} alt="" className="newsImg" />
                   <div className="card-body">
