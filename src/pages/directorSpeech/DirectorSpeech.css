@@ -3,14 +3,15 @@
   grid-template-columns: repeat(2, 1fr);
   padding: 8rem 9%;
   gap: 10rem;
-  background: #e6f4fe;
+  /* background: #e6f4fe; */
+  background: #2424ba;
 }
 
 .directorSpeech > img {
   width: 370px;
   height: 370px;
   justify-self: center;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .speech {
@@ -21,7 +22,7 @@
   font-size: 5rem;
   font-weight: bolder;
   margin-bottom: 1rem;
-  background-image: linear-gradient(98.63deg, #2424ba 0%, #9b161b 100%);
+  background-image: linear-gradient(98.63deg, #ffffff 0%, #9b161b 100%);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -29,7 +30,7 @@
 .speech > p {
   font-size: 1.7rem;
   line-height: 1.7;
-  color: var(--light-color);
+  color: #eee;
   margin-bottom: 2.6rem;
 }
 
@@ -41,7 +42,7 @@
 }
 
 .moreLink:hover {
-  color: #2424ba;
+  color: #fff;
 }
 
 @media (max-width: 1000px) {

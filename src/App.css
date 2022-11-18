@@ -30,7 +30,7 @@ a {
   color: #fff;
   font-weight: 400;
   font-size: 1.7rem;
-  background: var(--buttonBg);
+  background: #9b161b;
   border: 1px solid transparent;
   padding: 5px 10px;
   border-radius: 7px;
@@ -39,8 +39,8 @@ a {
 
 .btnButton:hover {
   border: 1px solid var(--light-blue);
-  color: #000;
-  background: transparent;
+  color: #fff;
+  background: #760c0f;
   transition: all 0.3s ease-in-out;
 }
 
