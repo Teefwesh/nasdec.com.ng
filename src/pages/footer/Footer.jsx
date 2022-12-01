@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Footer.css";
 import { HashLink as Link } from "react-router-hash-link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,9 +12,16 @@ import {
   faLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import Logo from "../../image/logo.png";
 
 const Footer = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="footer" id="support">
       <div className=" grid grid--footer">
@@ -30,6 +37,7 @@ const Footer = () => {
                 src={Logo}
                 alt="Nasdec Royal School Logo"
                 style={{ width: "14rem", height: "13rem" }}
+                data-aos="zoom-in"
               />
             </Link>
           </div>
@@ -76,7 +84,7 @@ const Footer = () => {
                 style={{
                   width: "1.8rem",
                   height: "1.8rem",
-                  color: "#2424ba",
+                  color: "#FFD700",
                 }}
               />
               No 5 & 7 Eddynumbers Avenue, Eedu, Agbara, Ogun State. Nigeria
@@ -84,7 +92,7 @@ const Footer = () => {
             <p>
               <FontAwesomeIcon
                 icon={faPhone}
-                style={{ marginRight: "1rem", color: "#2424ba" }}
+                style={{ marginRight: "1rem", color: "#FFD700" }}
               />
               <Link className="footer-link" to="">
                 <b>+234 1 293 2252 </b>
@@ -92,7 +100,7 @@ const Footer = () => {
               <br />
               <FontAwesomeIcon
                 icon={faAt}
-                style={{ marginRight: "1rem", color: "#2424ba" }}
+                style={{ marginRight: "1rem", color: "#FFD700" }}
               />
               <Link
                 className="footer-link"
