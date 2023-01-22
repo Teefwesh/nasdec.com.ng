@@ -1,13 +1,5 @@
 .schools {
-  padding: 5rem 9% 8rem;
-  /* background: #e6f4fe; */
-  background: linear-gradient(
-    to bottom,
-    #9b161b 0%,
-    #fa8072 50%,
-    #7c7cea 50%,
-    #2424ba 100%
-  );
+  padding: 9rem 9% 9rem;
 }
 
 .schools h1 {
@@ -16,10 +8,7 @@
   font-family: "Noto Serif", serif;
   text-align: center;
   padding-bottom: 4rem;
-  color: #fff;
-  /* background-image: linear-gradient(98.63deg, #2424ba 0%, #9b161b 100%);
-  -webkit-background-clip: text;
-  color: transparent; */
+  color: #0b0243;
 }
 
 .contentSides {
@@ -37,7 +26,6 @@
   width: 100%;
   height: 500px;
   object-fit: cover;
-  /* object-position: ; */
   position: relative;
   z-index: -1;
 }

@@ -24,7 +24,7 @@ const CounterUp = () => {
             width: "100%",
             // color: "white",
             // backgroundColor: "#eee",
-            padding: "60px 9%",
+            padding: "19rem 9% ",
           }}
         >
           <div className="icons-container">

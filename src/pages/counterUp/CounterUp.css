@@ -1,6 +1,21 @@
 .counterUp {
-  padding: 5rem 0;
-  padding-bottom: 5rem;
+  position: relative;
+  background-image: url(../../image/building2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+
+.counterUp::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(226, 83, 75, 0.3);
+  z-index: -1;
 }
 
 .icons-container {
